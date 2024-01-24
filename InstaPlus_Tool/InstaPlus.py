@@ -150,11 +150,7 @@ class InstaPlus:
 
 
             print(decrypt_payload(response.content, key))
-            # self.coins=json.loads(decrypt_payload(response.content, key))['dour']['ucfl']
-            # if int(self.coins)>=1200:
-            #     self.CoinsTransfer()
-            # else:pass
-
+        
         except Exception as E:
             print(E)
 
