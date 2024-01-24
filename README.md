@@ -24,5 +24,8 @@ UserName = 'Your_Instagram_Username'
 UserID = 'Your_Instagram_UserID'
 
 cl = InstaPlus(UserName, UserID)
+cl.appStatus()
+cl.SignUp()
+cl.GetFollowList()
 ```
 
