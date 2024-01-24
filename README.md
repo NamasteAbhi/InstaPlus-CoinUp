@@ -10,7 +10,11 @@ Reverse Engineering With InstaPlus
 ## Installation
 
 ```bash
-pip install NamasteAes,curl_cffi
+pip install NamasteAes
+pip install curl_cffi
+pip install pycrypto
+pip install pycryptodome
+pip install pycryptodomex
 ```
 
 ## Usage
